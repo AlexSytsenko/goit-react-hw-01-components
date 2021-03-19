@@ -1,9 +1,17 @@
-
+import Profile from './components/Profile';
+import user from './data/user.json';
 
 function App() {
-  return <div className="App">
-    <h1>Hello from react</h1>
-  </div>;
+  return (
+    <Profile
+      name={user.name}
+      tag={user.tag}
+      avatar={user.avatar}
+      location={user.location}
+      stats={user.stats}
+    />
+
+  )
 }
 
 export default App;
