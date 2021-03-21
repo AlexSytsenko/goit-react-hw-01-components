@@ -21,7 +21,7 @@ function App() {
     
     <Statistics 
       title = "Upload stats"
-      stats = { statisticalData12345 }
+      stats = { statisticalData123 }
     />
       
     <FriendList
