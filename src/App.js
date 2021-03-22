@@ -1,8 +1,8 @@
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
 import Statistics from './components/Statistics';
 import FriendList from './components/FriendList';
 import TransactionHistory from './components/TransactionHistory';
-import 'modern-normalize/modern-normalize.css';
+
 import user from './data/user.json';
 import statisticalData from './data/statistical-data.json';
 import friends from './data/friends.json';
