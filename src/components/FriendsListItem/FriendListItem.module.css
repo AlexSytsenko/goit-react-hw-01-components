@@ -1,0 +1,24 @@
+.online {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+
+.offline {
+  composes: online;
+  background-color: red;
+}
+
+.friend__avatar {
+  width: 75px;
+  height: 75px;
+  margin-right: 20px;
+}
+
+.friend__name {
+  font-size: 20px;
+  font-weight: 700;
+}
