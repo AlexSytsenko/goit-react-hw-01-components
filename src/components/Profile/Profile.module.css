@@ -1,15 +1,16 @@
 .profile {
-  width: 350px;
+  width: 300px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 50px;
   border-radius: 10px;
   border: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
 }
 
 .description {
-  padding: 20px;
+  padding: 30px;
   background-color: white;
 }
 
