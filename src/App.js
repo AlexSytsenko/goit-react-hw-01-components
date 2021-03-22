@@ -9,33 +9,22 @@ import transactions from './data/transactions.json';
 
 function App() {
   return (
+    <div>
+      <Profile
+        name={user.name}
+        tag={user.tag}
+        avatar={user.avatar}
+        location={user.location}
+        stats={user.stats}
+      />
 
-  <div>
-    <Profile
-      name={user.name}
-      tag={user.tag}
-      avatar={user.avatar}
-      location={user.location}
-      stats={user.stats}
-    />
-    
-    <Statistics 
-      title = "Upload stats"
-      stats = { statisticalData123 }
-    />
-      
-    <FriendList
-      friends={friends}
-    />
-    
-    <TransactionHistory 
-      items={transactions}
-    />
-      
-  </div>
-      
+      <Statistics title="Upload stats" stats={statisticalData} />
 
-  )
+      <FriendList friends={friends} />
+
+      <TransactionHistory items={transactions} />
+    </div>
+  );
 }
 
 export default App;
