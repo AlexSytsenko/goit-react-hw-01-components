@@ -1,9 +1,9 @@
-.friend__list {
+.list {
   width: 350px;
   margin: 0 auto 50px;
 }
 
-.friend__item {
+.item {
   display: flex;
   align-items: center;
   margin-bottom: 20px;

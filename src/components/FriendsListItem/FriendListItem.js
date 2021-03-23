@@ -6,13 +6,8 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <>
       <span className={status}></span>
-      <img
-        className={styles.friend__avatar}
-        src={avatar}
-        alt={name}
-        width="48"
-      />
-      <p className={styles.friend__name}>{name}</p>
+      <img className={styles.avatar} src={avatar} alt={name} width="48" />
+      <p className={styles.name}>{name}</p>
     </>
   );
 };

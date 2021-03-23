@@ -1,8 +1,6 @@
 .statistics {
   width: fit-content;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 0 0 5px 5px;
   overflow: hidden;
